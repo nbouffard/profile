@@ -1,0 +1,99 @@
+h1, h2 {
+  color: #6D2E46;
+}
+
+.title, h1, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  color: hsl(337, 36%, 35%);
+}
+
+.img-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 7px solid #CCABA3;
+}
+
+#profile-description {
+  font-size: 17px;
+  color: #18122B;
+  font-family: 'Manrope', sans-serif;
+}
+
+.link-color {
+  color: #A26769;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.nav_link-color {
+  color: #ba8c81;
+  font-size: 50px;
+}
+
+.nav_link-color:hover, .link-color:hover {
+  color: #4c2727;
+}
+
+.container {
+  text-align: center;
+  margin: 200px auto 0;
+  width: 700px;
+}
+
+body {
+  background-color: rgb(248, 231, 231);
+}
+
+.card-pink {
+  box-shadow: 0 0 30px #948a8a;
+  background-color: #e3c9c3;
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.navigation-padding {
+  padding: 0;
+}
+
+.symbol-padding {
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 200px auto 0;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 100px auto 0;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
